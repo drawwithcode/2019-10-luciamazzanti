@@ -1,8 +1,11 @@
-var wolf;
+// var wolf;
+var face;
 
 function preload() {
-  wolf = loadModel("assets/wolf.obj", true);
+  // wolf = loadModel("assets/wolf.obj", true);
+  face = loadModel("assets/faceMesh.obj", true);
 }
+
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   angleMode(DEGREES);
@@ -23,5 +26,6 @@ function draw() {
   rotateZ(180);
   rotateY(frameCount * 0.9);
 
-  model(wolf);
+  //model(wolf);
+  model(face);
 }
