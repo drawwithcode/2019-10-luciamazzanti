@@ -1,9 +1,7 @@
 var wolf;
-//var face;
 
 function preload() {
   wolf = loadModel("assets/Wolf.obj", true);
-  // face = loadModel("assets/faceMesh.obj", true);
 }
 
 function setup() {
@@ -27,5 +25,4 @@ function draw() {
   rotateY(frameCount * 0.9);
 
   model(wolf);
-  //model(face);
 }
