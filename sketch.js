@@ -1,8 +1,10 @@
 var wolf;
 
+function preload() {
+  wolf = loadModel("assets/wolf.obj", true);
+}
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-  wolf = loadModel("assets/wolf.obj", true);
   angleMode(DEGREES);
 }
 
