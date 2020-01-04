@@ -14,7 +14,7 @@ function draw() {
   directionalLight(255, 0, 10, 0, 1, 0);
   pointLight(0, 255, 255, locX, locY, 0);
 
-  noStroke(255);
+  noStroke();
 
   rotateZ(180);
   rotateY(frameCount * 0.9);
