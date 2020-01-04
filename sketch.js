@@ -1,7 +1,7 @@
 var wolf;
 
 function preload() {
-  wolf = loadModel("assets/Wolf.obj", true);
+  wolf = loadModel("assets/wolf.obj", true);
 }
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
