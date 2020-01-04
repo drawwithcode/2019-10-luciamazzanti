@@ -1,3 +1,5 @@
+var wolf;
+
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   wolf = loadModel("assets/wolf.obj", true);
